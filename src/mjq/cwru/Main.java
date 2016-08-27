@@ -244,4 +244,23 @@ public class Main {
 
     }
 
+    public class Bag<Item> implements Iterable<Item> {
+        int N;
+
+        public Bag() {
+        }
+
+        public void add(Item x) {
+        }
+
+        public int size() {
+            return N;
+        }
+
+        @Override
+        public Iterator<Item> iterator() {
+            return null;
+        }
+    }
+
 }
